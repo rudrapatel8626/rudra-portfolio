@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rudra D Patel | Backend Developer</title>
+  <meta name="description" content="Rudra D Patel is a Computer Science & Engineering student at Indus University, Ahmedabad, building backend systems with Python, Django and Node.js.">
+  <meta name="theme-color" content="#090a0f">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Rudra D Patel | Backend Developer">
+  <meta property="og:description" content="CSE student building backend systems.">
+
+  <!-- SVG emoji favicon -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%92%BB%3C/text%3E%3C/svg%3E">
+
+  <!-- Fonts: Inter for text, JetBrains Mono for code elements -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#pager">Skip to content</a>
+
+  <!-- Floating background shapes (decorative) -->
+  <div class="bg-shapes" aria-hidden="true">
+    <span class="shape shape-1"></span>
+    <span class="shape shape-2"></span>
+    <span class="shape shape-3"></span>
+  </div>
+
+  <!-- ========== FLOATING NAVBAR ========== -->
+  <header class="navbar" id="navbar">
+    <div class="navbar__inner">
+      <a class="navbar__logo" href="#home" data-page="home" aria-label="Rudra D Patel, home">
+        <span class="navbar__mark" aria-hidden="true">R</span>
+        <h2><span class="navbar__name">Rudra D Patel</span></h2>
+      </a>
+
+      <nav class="navbar__nav" id="nav-menu" aria-label="Main">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="#home" data-page="home">Home</a></li>
+          <li><a class="nav-link" href="#about" data-page="about">About</a></li>
+          <li><a class="nav-link" href="#projects" data-page="projects">Projects</a></li>
+          <li><a class="nav-link" href="#experience" data-page="experience">Experience</a></li>
+          <li><a class="nav-link" href="#skills" data-page="skills">Skills</a></li>
+          <li><a class="nav-link" href="#contact" data-page="contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="navbar__actions">
+        <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch theme" aria-pressed="false">
+          <svg class="icon icon-moon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+          <svg class="icon icon-sun" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </button>
+        <button class="icon-btn nav-toggle" id="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu">
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========== PAGER: 3D CAROUSEL ========== -->
+  <main class="pager" id="pager">
+    <div class="track" id="track">
+
+      <!-- ===== 1. HERO ===== -->
+      <section class="page" id="home" data-title="Home" aria-label="Home">
+        <div class="page__inner hero">
+          <div class="hero__text">
+            <h1 class="hero__name">Rudra D Patel</h1>
+            <p class="hero__tagline">Computer Science &amp; Engineering Student | Backend Developer</p>
+            <p class="hero__sub">CSE student building backend systems.</p>
+            <ul class="pill-row" aria-label="Quick facts">
+              <li class="pill">Ahmedabad, Gujarat, India</li>
+              <li class="pill">Indus University</li>
+            </ul>
+            <div class="btn-row">
+              <a class="btn btn--primary" href="#projects" data-page="projects">View Projects</a>
+              <a class="btn btn--outline" href="assets/files/resume.pdf" download>Download Resume</a>
+              <a class="btn btn--outline" href="#contact" data-page="contact">Contact</a>
+            </div>
+          </div>
+
+          <!-- Code Card Visual -->
+          <div class="hero__visual">
+            <figure class="code-card" aria-label="Code card">
+              <div class="code-card__bar" aria-hidden="true">
+                <span class="dot dot--1"></span><span class="dot dot--2"></span><span class="dot dot--3"></span>
+                <span class="code-card__tab">rudra.js</span>
+              </div>
+<pre class="code-card__body" aria-hidden="true"><code><span class="ln">1</span><span class="tok-k">const</span> <span class="tok-v">developer</span> <span class="tok-p">=</span> <span class="tok-p">{</span>
+<span class="ln">2</span>  <span class="tok-key">name</span><span class="tok-p">:</span> <span class="tok-s">"Rudra D Patel"</span><span class="tok-p">,</span>
+<span class="ln">3</span>  <span class="tok-key">role</span><span class="tok-p">:</span> <span class="tok-s">"Backend Developer"</span><span class="tok-p">,</span>
+<span class="ln">4</span>  <span class="tok-key">education</span><span class="tok-p">:</span> <span class="tok-s">"B.Tech CSE, Indus University"</span><span class="tok-p">,</span>
+<span class="ln">5</span>  <span class="tok-key">stack</span><span class="tok-p">:</span> <span class="tok-p">[</span><span class="tok-s">"Python"</span><span class="tok-p">,</span> <span class="tok-s">"Django"</span><span class="tok-p">,</span> <span class="tok-s">"Node.js"</span><span class="tok-p">,</span> <span class="tok-s">"MySQL"</span><span class="tok-p">],</span>
+<span class="ln">6</span>  <span class="tok-key">location</span><span class="tok-p">:</span> <span class="tok-s">"Ahmedabad, India"</span><span class="tok-p">,</span>
+<span class="ln">7</span><span class="tok-p">};</span><span class="cursor"></span></code></pre>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== 2. ABOUT ===== -->
+      <section class="page" id="about" data-title="About" aria-labelledby="about-title">
+        <div class="page__inner">
+          <h2 class="page__title" id="about-title">About</h2>
+          <div class="about">
+            <div class="card">
+  <h3 class="card__label">Technical Domains & Explorations</h3>
+  <dl class="project__details">
+    <div>
+      <dt>Systems & Architecture</dt>
+      <dd>Exploring operating system principles, microprocessor architecture, memory management, and interrupt handling to understand software execution at the metal.</dd>
+    </div>
+    <div>
+      <dt>IoT & Embedded Engineering</dt>
+      <dd>Designing sensor networks utilizing C++, pulse-width modulation (PWM), and lightweight protocols like CoAP, alongside researching PCB schematic capture and SMT manufacturing workflows.</dd>
+    </div>
+    <div>
+      <dt>Algorithmic Optimization</dt>
+      <dd>Consistently applying advanced data structures—such as circular queues, binary trees, and graph algorithms—to heavily optimize time and space complexity in server-side application logic.</dd>
+    </div>
+  </dl>
+</div>
+            <div class="card about__card">
+              <p>I'm a B.Tech CSE student at Indus University in Ahmedabad. I build backend APIs with Node.js and Python. In June 2026 I interned on the Back-end development using django, where I made back-end of a website using django.</p>
+            </div>
+            <aside class="card about__facts" aria-label="Education">
+              <h3 class="card__label">Education</h3>
+              <p class="about__degree">B.Tech in Computer Science &amp; Engineering</p>
+              <p>Indus University</p>
+              <dl class="facts">
+                <div><dt>Expected graduation</dt><dd>2028</dd></div>
+                <div><dt>CGPA</dt><dd>9.35</dd></div>
+                <div><dt>Location</dt><dd>Ahmedabad, Gujarat, India</dd></div>
+              </dl>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== 3. PROJECTS ===== -->
+      <section class="page" id="projects" data-title="Projects" aria-labelledby="projects-title">
+        <div class="page__inner">
+          <h2 class="page__title" id="projects-title">Projects</h2>
+          <div class="projects">
+
+            <article class="card project">
+              <h3 class="project__title">Food Queue App</h3>
+              <dl class="project__details">
+                <div><dt>Problem</dt><dd>Managing food orders in an organized FIFO queue for a college food-ordering workflow.</dd></div>
+                <div><dt>What I built</dt><dd>A web-based food ordering/queue management application that implements queue data-structure concepts. Users add orders to the queue and process them in FIFO order.</dd></div>
+                <div><dt>Result</dt><dd>Implemented FIFO-based order processing and demonstrated practical use of queue data structures in a working web application.</dd></div>
+              </dl>
+              <ul class="tags" aria-label="Tech used">
+                <li class="tag">HTML</li>
+                <li class="tag">CSS</li>
+                <li class="tag">JavaScript</li>
+              </ul>
+              <div class="btn-row">
+                <a class="btn btn--primary btn--sm" href="https://food-queue-app.vercel.app" target="_blank" rel="noopener noreferrer">Live site</a>
+                <a class="btn btn--outline btn--sm" href="https://github.com/milannakum24cse-eng/food-queue-app" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
+            </article>
+
+            <article class="card project">
+              <h3 class="project__title">Mobile Store Backend</h3>
+              <dl class="project__details">
+                <div><dt>Problem</dt><dd>Providing backend APIs for authentication, user management, CRUD operations and mobile-store data management.</dd></div>
+                <div><dt>What I built</dt><dd>A backend API application with authentication, CRUD operations, database integration and API testing.</dd></div>
+                <div><dt>Result</dt><dd>Built and tested REST APIs for authentication and backend data management.</dd></div>
+              </dl>
+              <ul class="tags" aria-label="Tech used">
+                <li class="tag">Node.js</li>
+                <li class="tag">Express.js</li>
+                <li class="tag">MongoDB</li>
+                <li class="tag">Mongoose</li>
+                <li class="tag">JWT</li>
+                <li class="tag">Postman</li>
+              </ul>
+              <div class="btn-row">
+                <a class="btn btn--primary btn--sm" href="https://mobyx-eight.vercel.app" target="_blank" rel="noopener noreferrer">Live / API</a>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== 4. EXPERIENCE ===== -->
+      <section class="page" id="experience" data-title="Experience" aria-labelledby="experience-title">
+        <div class="page__inner">
+          <h2 class="page__title" id="experience-title">Experience</h2>
+          <ol class="timeline">
+            <li class="timeline__item">
+              <span class="timeline__marker" aria-hidden="true"></span>
+              <div class="card timeline__card">
+                <h3 class="timeline__role">Back-end development using django</h3>
+                <p class="timeline__date"><time datetime="2026-06-15">15 June 2026</time> - <time datetime="2026-06-20">20 June 2026</time></p>
+                <ul class="timeline__list">
+                  <li>Developed a working back-end website during the internship.</li>
+                  <li>Used django for the whole back-end and also used python and css for coding and decoration.</li>
+                  <li>Also deployed it later on to check if it was working correctly.</li>
+                  <li>Worked with Django.</li>
+                </ul>
+                <ul class="tags" aria-label="Technologies">
+                  <li class="tag">Python</li>
+                  <li class="tag">Django</li>
+                  <li class="tag">Pandas</li>
+                  <li class="tag">MySQL</li>
+                </ul>
+              </div>
+            </li>
+          </ol>
+          <ol class="timeline">
+            <li class="timeline__item">
+              <span class="timeline__marker" aria-hidden="true"></span>
+              <div class="card timeline__card">
+                <h3 class="timeline__role">Python Programming Masterclass</h3>
+                <p class="timeline__date"><time datetime="2025-06-10">10 June 2025</time> - <time datetime="2025-06-30">30 June 2025</time></p>
+                <ul class="timeline__list">
+                  <li>Developed a python project during the internship.</li>
+                  <li>Learned Python and libraries.</li>
+                  
+                  <li>Worked with Panda, Matplotlib, etc..</li>
+                </ul>
+                <ul class="tags" aria-label="Technologies">
+                  <li class="tag">Python</li>
+                  <li class="tag">Libraries</li>
+                  <li class="tag">Pandas</li>
+                  <li class="tag">Matplotlib</li>
+                </ul>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+      
+
+      <!-- ===== 5. SKILLS ===== -->
+      <section class="page" id="skills" data-title="Skills" aria-labelledby="skills-title">
+        <div class="page__inner">
+          <h2 class="page__title" id="skills-title">Skills</h2>
+          <div class="skills">
+
+            <div class="card skill-group">
+              <h3 class="card__label">Programming</h3>
+              <ul class="skill-list">
+                <li class="skill"><span class="skill__name">Python</span><span class="skill__level">Intermediate</span></li>
+                <li class="skill"><span class="skill__name">HTML</span><span class="skill__level">Intermediate</span></li>
+                <li class="skill"><span class="skill__name">CSS</span><span class="skill__level">Intermediate</span></li>
+                <li class="skill"><span class="skill__name">C++</span><span class="skill__level">Intermediate</span></li>
+              </ul>
+            </div>
+
+            <div class="card skill-group">
+              <h3 class="card__label">Backend</h3>
+              <ul class="skill-list">
+                <li class="skill"><span class="skill__name">Django</span><span class="skill__level">Beginner-Intermediate</span></li>
+                <li class="skill"><span class="skill__name">Node.js</span><span class="skill__level">Beginner</span></li>
+              </ul>
+            </div>
+
+            <div class="card skill-group">
+              <h3 class="card__label">Databases</h3>
+              <ul class="skill-list">
+                <li class="skill"><span class="skill__name">MySQL</span><span class="skill__level">Beginner-Intermediate</span></li>
+                <li class="skill"><span class="skill__name">SQLite</span><span class="skill__level">Beginner</span></li>
+              </ul>
+            </div>
+
+            <div class="card skill-group">
+              <h3 class="card__label">Tools</h3>
+              <ul class="skill-list">
+                <li class="skill"><span class="skill__name">Git</span><span class="skill__level">Intermediate</span></li>
+                <li class="skill"><span class="skill__name">GitHub</span><span class="skill__level">Intermediate</span></li>
+                <li class="skill"><span class="skill__name">VS Code</span><span class="skill__level">Advanced</span></li>
+              </ul>
+            </div>
+
+            <div class="card skill-group">
+              <h3 class="card__label">Data / Automation</h3>
+              <ul class="skill-list">
+                <li class="skill"><span class="skill__name">Pandas</span><span class="skill__level">Beginner-Intermediate</span></li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== 6. CONTACT ===== -->
+      <section class="page" id="contact" data-title="Contact" aria-labelledby="contact-title">
+        <div class="page__inner">
+          <h2 class="page__title" id="contact-title">Contact</h2>
+          <div class="contact">
+
+            <div class="card contact__info">
+              <h3 class="card__label">Get in touch</h3>
+              <ul class="contact__links">
+                <li><span class="contact__key">Email</span> <a href="mailto:rdp5125@gmail.com">rdp5125@gmail.com</a></li>
+                <li><span class="contact__key">GitHub</span> <a href="https://github.com/rudrapatel8626" target="_blank" rel="noopener noreferrer">github.com/rudrapatel8626</a></li>
+              </ul>
+              <div class="btn-row">
+                <a class="btn btn--primary" href="mailto:rdp5125@gmail.com">Send Email</a>
+                <a class="btn btn--outline" href="assets/files/resume.pdf" download>Download Resume</a>
+              </div>
+            </div>
+
+            <form class="card contact__form" id="contact-form" novalidate aria-label="Contact form">
+              <div class="field">
+                <label for="contact-name">Name</label>
+                <input type="text" id="contact-name" name="name" autocomplete="name" aria-describedby="contact-name-error">
+                <p class="field__error" id="contact-name-error" role="alert"></p>
+              </div>
+              <div class="field">
+                <label for="contact-email">Email</label>
+                <input type="email" id="contact-email" name="email" autocomplete="email" aria-describedby="contact-email-error">
+                <p class="field__error" id="contact-email-error" role="alert"></p>
+              </div>
+              <div class="field">
+                <label for="contact-message">Message</label>
+                <textarea id="contact-message" name="message" rows="4" aria-describedby="contact-message-error"></textarea>
+                <p class="field__error" id="contact-message-error" role="alert"></p>
+              </div>
+              <button class="btn btn--primary" type="submit">Open in email app</button>
+              <p class="form-status" id="contact-status" role="status" aria-live="polite"></p>
+            </form>
+
+          </div>
+        </div>
+      </section>
+
+    </div><!-- /.track -->
+  </main>
+
+  <!-- Pager controls -->
+  <div class="pager-controls">
+    <button class="icon-btn pager-btn" id="prev-btn" type="button" aria-label="Previous page">
+      <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+    <div class="dots" id="dots" role="tablist" aria-label="Pages"></div>
+    <button class="icon-btn pager-btn" id="next-btn" type="button" aria-label="Next page">
+      <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
